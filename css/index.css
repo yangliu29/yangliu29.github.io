@@ -1,0 +1,66 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+
+#mainBox {
+	position: relative;
+	width: 1360px;
+	height: 600px;
+	margin: 30px auto;
+	background: url(../images/bg.jpg) no-repeat;
+	
+}
+
+.gameArea {
+	width: 640px;
+	height: 640px;
+	position: absolute;
+	right: 350px;
+	top: 88px;
+}
+
+.gameArea ul li {
+	width: 64px;
+	height: 64px;
+	float: left;
+	background: url(../images/00.jpg);
+	box-sizing: border-box;
+	border: 1px solid ghostwhite;
+}
+
+
+/*****控 制**********/
+.control {
+	position: absolute;
+	top: 168px;
+	left: 38px;
+}
+
+.control input {
+	width: 86px;
+	height: 36px;
+}
+
+/*******统计*******/
+.gameInfo {
+	position: absolute;
+	top: 88px;
+	right: 30px;
+	width: 300px;
+	height: 480px;
+}
+
+.gameInfo p{
+	color: skyblue;
+	font: 28px "微软雅黑";
+	margin-bottom: 30px;
+}
+.gameInfo span {
+	color: red;
+	font: 28px "微软雅黑";
+}
