@@ -12,8 +12,8 @@ ul {
 	width: 1360px;
 	height: 600px;
 	margin: 30px auto;
-	background: url(../images/bg.jpg) no-repeat;
-	
+	background: url(../images/bg-s.jpg) no-repeat;
+	background-position: 40% 50%;
 }
 
 .gameArea {

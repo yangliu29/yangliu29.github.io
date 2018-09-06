@@ -1,6 +1,4 @@
 
-
-//
 var r,t = 0;
 var timeID,speedCtrl = 1500;
 
@@ -50,11 +48,8 @@ for(var i =0;i < gameArr.length;i++){
 	}
 }
 
-
-//开始
 //注册开始点击事件
 startBtn.onclick = start;
-
 
 function start(){
 	
@@ -64,10 +59,8 @@ function start(){
 	timeID= setInterval(function (){
 		
 		speedCtrl -= 10;
-		
 		//随机出现
 		r = parseInt(Math.random() * gameArr.length);
-		console.log(r);
 		//添加有老鼠属性标记
 		gameArr[r].mark = true;
 		gameArr[r].style.backgroundImage = 'url(images/01.jpg)';
